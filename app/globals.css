@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-bg: #f4f7f2;
+  --app-surface: #fffdf9;
+  --app-surface-soft: #eef4ea;
+  --app-border: #cfe0cc;
+  --app-border-strong: #9fbe98;
+  --app-text: #1f261d;
+  --app-text-soft: #5a6756;
+  --app-accent: #2f6b3b;
+  --app-accent-strong: #9f2f35;
+}
+
+html {
+  background: var(--app-bg);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(47, 107, 59, 0.08), transparent 28%),
+    linear-gradient(180deg, #fafcf8 0%, #f4f7f2 100%);
+  color: var(--app-text);
+}
+
+::selection {
+  background: rgba(47, 107, 59, 0.18);
+}
+
+.bg-slate-100 {
+  background-color: #f5efe7 !important;
+}
+
+.bg-slate-50 {
+  background-color: #fbf7f1 !important;
+}
+
+.bg-white {
+  background-color: var(--app-surface) !important;
+}
+
+.bg-slate-900 {
+  background-color: var(--app-accent) !important;
+}
+
+.hover\:bg-slate-800:hover,
+.hover\:bg-slate-700:hover {
+  background-color: #255430 !important;
+}
+
+.hover\:bg-slate-100:hover {
+  background-color: #efe4d6 !important;
+}
+
+.hover\:bg-slate-50:hover {
+  background-color: #f7f0e6 !important;
+}
+
+.text-slate-900 {
+  color: var(--app-text) !important;
+}
+
+.text-slate-800 {
+  color: #34271d !important;
+}
+
+.text-slate-700 {
+  color: #5a4938 !important;
+}
+
+.text-slate-600,
+.text-slate-500 {
+  color: var(--app-text-soft) !important;
+}
+
+.text-slate-400,
+.text-slate-300 {
+  color: #879581 !important;
+}
+
+.border-slate-300 {
+  border-color: var(--app-border-strong) !important;
+}
+
+.border-slate-200 {
+  border-color: var(--app-border) !important;
+}
+
+.shadow-slate-200\/70,
+.shadow-slate-200\/50 {
+  --tw-shadow-color: rgba(47, 107, 59, 0.12) !important;
+}

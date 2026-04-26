@@ -1,0 +1,216 @@
+{
+  "stats": {
+    "availableProperties": "2,847",
+    "activeUsers": "15,892",
+    "monthlyTransactions": "523",
+    "averageRating": "4.9"
+  },
+  "featuredProperties": [
+    {
+      "id": 1,
+      "title": "Appartement T3 Moderne Cocody",
+      "location": "Cocody, Abidjan",
+      "price": 250000,
+      "type": "location",
+      "image": "/api/placeholder/400/300",
+      "bedrooms": 3,
+      "area": 120,
+      "featured": true,
+      "description": "Bel appartement T3 moderne dans le quartier prisé de Cocody",
+      "amenities": ["Climatisation", "Parking", "Sécurité 24/7", "Balcon"],
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "Villa de Luxe avec Piscine",
+      "location": "Riviera, Abidjan",
+      "price": 85000000,
+      "type": "vente",
+      "image": "/api/placeholder/400/300",
+      "bedrooms": 5,
+      "area": 350,
+      "featured": true,
+      "description": "Magnifique villa de luxe avec piscine privée et jardin",
+      "amenities": ["Piscine", "Jardin", "Garage", "Sécurité", "Climatisation"],
+      "available": true
+    },
+    {
+      "id": 3,
+      "title": "Studio Meublé Plateau",
+      "location": "Plateau, Abidjan",
+      "price": 120000,
+      "type": "location",
+      "image": "/api/placeholder/400/300",
+      "bedrooms": 1,
+      "area": 45,
+      "featured": true,
+      "description": "Studio meublé moderne au Plateau, idéal pour professionnels",
+      "amenities": ["Meublé", "Climatisation", "WiFi", "Laverie"],
+      "available": true
+    }
+  ],
+  "referentiel": {
+    "types": [
+      {
+        "id": "T1",
+        "name": "Studio/T1",
+        "description": "Studio ou appartement 1 pièce",
+        "minPrice": 80000,
+        "maxPrice": 150000
+      },
+      {
+        "id": "T2",
+        "name": "Appartement T2",
+        "description": "Appartement 2 pièces",
+        "minPrice": 120000,
+        "maxPrice": 250000
+      },
+      {
+        "id": "T3",
+        "name": "Appartement T3",
+        "description": "Appartement 3 pièces",
+        "minPrice": 200000,
+        "maxPrice": 400000
+      },
+      {
+        "id": "T4",
+        "name": "Appartement T4",
+        "description": "Appartement 4 pièces",
+        "minPrice": 300000,
+        "maxPrice": 600000
+      },
+      {
+        "id": "T5",
+        "name": "Appartement T5",
+        "description": "Appartement 5 pièces et plus",
+        "minPrice": 500000,
+        "maxPrice": 1500000
+      },
+      {
+        "id": "VILLA",
+        "name": "Villa",
+        "description": "Villa avec jardin",
+        "minPrice": 800000,
+        "maxPrice": 3000000
+      },
+      {
+        "id": "MAISON",
+        "name": "Maison",
+        "description": "Maison individuelle",
+        "minPrice": 400000,
+        "maxPrice": 2000000
+      }
+    ],
+    "quartiers": [
+      {
+        "id": "cocody",
+        "name": "Cocody",
+        "description": "Quartier résidentiel chic et calme",
+        "avgPrice": 350000,
+        "popular": true
+      },
+      {
+        "id": "plateau",
+        "name": "Plateau",
+        "description": "Centre des affaires",
+        "avgPrice": 280000,
+        "popular": true
+      },
+      {
+        "id": "yopougon",
+        "name": "Yopougon",
+        "description": "Quartier populaire et animé",
+        "avgPrice": 150000,
+        "popular": true
+      },
+      {
+        "id": "marcory",
+        "name": "Marcory",
+        "description": "Quartier commercial et résidentiel",
+        "avgPrice": 200000,
+        "popular": true
+      },
+      {
+        "id": "treichville",
+        "name": "Treichville",
+        "description": "Quartier historique et portuaire",
+        "avgPrice": 120000,
+        "popular": false
+      },
+      {
+        "id": "adjame",
+        "name": "Adjamé",
+        "description": "Marché animé et commerces",
+        "avgPrice": 100000,
+        "popular": false
+      },
+      {
+        "id": "abobo",
+        "name": "Abobo",
+        "description": "Grande commune populaire",
+        "avgPrice": 80000,
+        "popular": false
+      },
+      {
+        "id": "riviera",
+        "name": "Riviera",
+        "description": "Zone résidentielle moderne",
+        "avgPrice": 450000,
+        "popular": true
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "id": 1,
+      "clientId": "CL001",
+      "clientName": "Koné Alassane",
+      "propertyId": 1,
+      "propertyTitle": "Appartement T3 Moderne Cocody",
+      "type": "location",
+      "amount": 250000,
+      "duration": 12,
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
+      "status": "actif",
+      "pdfUrl": "/contracts/contract_001.pdf"
+    },
+    {
+      "id": 2,
+      "clientId": "CL002",
+      "clientName": "Touré Fatou",
+      "propertyId": 3,
+      "propertyTitle": "Studio Meublé Plateau",
+      "type": "location",
+      "amount": 120000,
+      "duration": 6,
+      "startDate": "2024-02-01",
+      "endDate": "2024-07-31",
+      "status": "actif",
+      "pdfUrl": "/contracts/contract_002.pdf"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin001",
+      "name": "Administrateur",
+      "email": "admin@immopro.ci",
+      "role": "admin",
+      "status": "actif"
+    },
+    {
+      "id": "agent001",
+      "name": "Bamba Kouadio",
+      "email": "kouadio@immopro.ci",
+      "role": "agent",
+      "status": "actif"
+    },
+    {
+      "id": "client001",
+      "name": "Koné Alassane",
+      "email": "kone.alassane@email.ci",
+      "role": "client",
+      "status": "actif"
+    }
+  ]
+}

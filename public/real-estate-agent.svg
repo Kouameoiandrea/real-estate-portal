@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Agent immobilier avec maison miniature</title>
+  <desc id="desc">Illustration d'un agent en costume bleu tenant une maison miniature sur la main.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a6b88"/>
+      <stop offset="100%" stop-color="#182434"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#395b7b"/>
+      <stop offset="100%" stop-color="#142132"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dde6ee"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#efc29d"/>
+      <stop offset="100%" stop-color="#c98f67"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#505a67"/>
+      <stop offset="100%" stop-color="#1d2733"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0bc9f"/>
+      <stop offset="100%" stop-color="#db9372"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#08111d" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <g opacity="0.08">
+    <circle cx="220" cy="180" r="170" fill="#ffffff"/>
+    <circle cx="980" cy="120" r="110" fill="#ffffff"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M790 84c50 0 90 42 90 94v88H700v-88c0-52 40-94 90-94z" fill="url(#skin)"/>
+    <path d="M634 226h312l88 536H520l114-536z" fill="url(#suit)"/>
+    <path d="M704 226h164v270H704z" fill="url(#shirt)"/>
+    <path d="M781 226h34l50 154h-69l-15-53-14 53h-67l47-154z" fill="#20364b"/>
+    <path d="M789 186l-36 40h72l-36-40z" fill="#132030"/>
+    <path d="M585 282l124 96-104 154-144-90 124-160z" fill="url(#suit)"/>
+    <path d="M933 282l-126 94 108 160 146-92-128-162z" fill="url(#suit)"/>
+    <ellipse cx="503" cy="462" rx="68" ry="52" fill="url(#skin)"/>
+  </g>
+
+  <g transform="translate(120 280)" filter="url(#shadow)">
+    <ellipse cx="270" cy="196" rx="242" ry="18" fill="#132030" opacity="0.28"/>
+    <path d="M46 178h224l48-126H98L46 178z" fill="#d8dde3"/>
+    <path d="M118 62h210l126 0 96 84H20l98-84z" fill="url(#roof)"/>
+    <path d="M150 90h236v178H150z" fill="url(#wall)"/>
+    <path d="M148 90l122-78 138 78H148z" fill="url(#roof)"/>
+    <path d="M194 118h44v58h-44z" fill="#f8fafc"/>
+    <path d="M252 118h44v58h-44z" fill="#f8fafc"/>
+    <path d="M318 118h44v58h-44z" fill="#f8fafc"/>
+    <path d="M312 182h54v86h-54z" fill="#f8fafc"/>
+    <path d="M186 194h50v74h-50z" fill="#f8fafc"/>
+    <path d="M248 194h50v74h-50z" fill="#f8fafc"/>
+    <path d="M80 92h92v160H80z" fill="#f8fafc"/>
+    <path d="M54 146h146" stroke="#dfe6ee" stroke-width="8"/>
+    <path d="M34 178h520" stroke="#c7ced7" stroke-width="8" stroke-linecap="round"/>
+    <path d="M104 58l-74 88" stroke="#e8edf2" stroke-width="8" stroke-linecap="round"/>
+    <path d="M130 58l-70 88" stroke="#e8edf2" stroke-width="8" stroke-linecap="round"/>
+    <path d="M156 58l-66 88" stroke="#e8edf2" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
