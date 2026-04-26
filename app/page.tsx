@@ -110,7 +110,7 @@ export default function Home() {
               onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 12px 35px rgba(159,47,53,0.28)' }}
               onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 25px rgba(159,47,53,0.2)' }}
             >
-              S'inscrire
+              S&apos;inscrire
             </Link>
           </div>
         </div>
@@ -390,7 +390,7 @@ export default function Home() {
             </div>
             <h2 style={{ marginBottom: '8px', fontSize: '38px', fontWeight: '900', color: '#eef7eb', letterSpacing: '-0.02em', textShadow: '0 2px 20px rgba(47,107,59,0.16)' }}>Biens en vedette</h2>
             <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#cfe6ca', maxWidth: '600px', margin: '0 auto' }}>
-              Découvrez notre sélection exclusive des biens d'exception à Abidjan et en Côte d'Ivoire
+              Découvrez notre sélection exclusive des biens d&apos;exception à Abidjan et en Côte d&apos;Ivoire
             </p>
           </div>
 
@@ -456,7 +456,7 @@ export default function Home() {
                   Besoin d'aide pour votre projet immobilier ?
                 </h2>
                 <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.6', color: '#cfe6ca', maxWidth: '500px' }}>
-                  Notre équipe d'experts est disponible pour vous accompagner dans vos projets immobiliers d'exception.
+                  Notre équipe d&apos;experts est disponible pour vous accompagner dans vos projets immobiliers d&apos;exception.
                 </p>
               </div>
 
@@ -487,7 +487,7 @@ export default function Home() {
             <div style={{ height: '32px', width: '32px', borderRadius: '10px', background: 'linear-gradient(135deg, #9f2f35, #2f6b3b)', boxShadow: '0 6px 20px rgba(47,107,59,0.24)' }}></div>
             <span style={{ fontSize: '20px', fontWeight: '900', color: '#eef7eb', textShadow: '0 2px 10px rgba(47,107,59,0.16)' }}>ImmoPro</span>
           </div>
-          <p style={{ color: '#cfe6ca', fontSize: '14px', marginBottom: '20px', fontWeight: '500' }}>L'excellence immobilière au service de vos ambitions</p>
+          <p style={{ color: '#cfe6ca', fontSize: '14px', marginBottom: '20px', fontWeight: '500' }}>L&apos;excellence immobilière au service de vos ambitions</p>
           <div style={{ borderTop: '1px solid rgba(184,216,180,0.12)', paddingTop: '20px', textAlign: 'center', color: '#d4ecd0' }}>
             <p style={{ fontSize: '13px', fontWeight: '500' }}>&copy; 2024 ImmoPro. Tous droits réservés. | Service Premium</p>
           </div>
